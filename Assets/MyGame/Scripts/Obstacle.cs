@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
@@ -25,14 +23,14 @@ void Update()
     if(transform.position.x < -15f)
     {
         Destroy(gameObject);
-}
+       }
         //if obstacle's position x is < -15f it will be destroyed
         if (transform.position.x > 15f)
         {
             Destroy(gameObject);
         }
 
-    }
+ }
 
 
 
